@@ -4,3 +4,12 @@ title: "" # the name of your site, e.g. ACME Corp.
 
 sass:
   sass_dir: assets/css
+
+include: ["_pages"]
+
+collections_dir:
+  content
+
+collections:
+  sections:
+    output: false
