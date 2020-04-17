@@ -1,4 +1,9 @@
-- name: FR
-  link: /
-- name: EN
-  link: /en
+# French
+- name: Accueil
+  lang: fr
+  url: /fr/
+
+# English
+- name: Home
+  lang: en
+  url: /en/

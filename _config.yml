@@ -2,6 +2,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "" # the name of your site, e.g. ACME Corp.
 
+plugins:
+  - jekyll-redirect-from
+
 sass:
   sass_dir: assets/css
 
@@ -15,6 +18,10 @@ collections:
     output: false
 
 # Multilangue
+languages:
+  - fr
+  - en
+
 defaults:
   -
     scope:

@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Home
-permalink: /
+permalink: /fr/
+redirect_from:
+  - /
 sections:
   - 00-jumbotron
   - 01-three-cols

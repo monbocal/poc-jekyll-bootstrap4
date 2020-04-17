@@ -5,8 +5,16 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      {% for item in site.data.navbar %}
-        <a class="nav-item nav-link" href="{{item.link}}">{{ item.name }}</a>
+      {% assign items = site.data.navbar | where: "lang", page.lang %}
+      {% for item in items %}
+        <a class="nav-item nav-link" href="{{item.url}}">{{ item.name }}</a>
+      {% endfor %}
+        <span class="nav-item nav-link">|||</span>
+      {% for language in site.languages %}
+        {% unless page.lang == language %}
+          {% assign this_language = site.data.languages | where: "lang", language %}
+            <a class="nav-item nav-link" href="{{ this_language[0].url }}">{{ this_language[0].flag }}</a>
+        {% endunless %}
       {% endfor %}
     </div>
   </div>
