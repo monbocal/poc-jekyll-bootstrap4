@@ -1,5 +1,5 @@
 ---
-design: sections/00-home/01-three-cols.html
+design: common/three-cols.html
 col-00-title: First you must
 col-00-content: |
   Doggo ipsum shoober dat tungg tho ruff vvv pupper, many pats boofers. Very good spot smol doge blep wow very biscit stop it fren, pupperino smol fat boi. Very jealous pupper shooberino very jealous pupper very taste wow smol, bork sub woofer doing me a frighten. Wow very biscit clouds floofs adorable doggo, tungg. Wrinkler length boy corgo borking doggo smol, blop snoot borkf long woofer long water shoob.

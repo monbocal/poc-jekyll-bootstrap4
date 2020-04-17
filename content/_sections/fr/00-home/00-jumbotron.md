@@ -1,5 +1,5 @@
 ---
-design: sections/00-home/00-jumbotron.html
+design: common/jumbotron.html
 title: Hello, world!
 subtitle: This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
 cta: Learn more

@@ -13,3 +13,18 @@ collections_dir:
 collections:
   sections:
     output: false
+
+# Multilangue
+defaults:
+  -
+    scope:
+      path: "_pages/fr"
+      type: "pages" # a collection in your site, in plural form
+    values:
+      lang: "fr"
+  -
+    scope:
+      path: "_pages/en"
+      type: "pages" # a collection in your site, in plural form
+    values:
+      lang: "en"
